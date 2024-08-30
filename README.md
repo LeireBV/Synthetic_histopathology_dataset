@@ -1,4 +1,4 @@
-# Unleashing the Potential of Synthetic Images: Histopathology Image Classification Dataset
+# Unleashing the Potential of Synthetic Images: Histopathology Image Classification
 
 Welcome to the repository for the dataset used in the paper titled **"Unleashing the Potential of Synthetic Images: A Study on Histopathology Image Classification"**.
 
