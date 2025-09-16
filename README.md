@@ -98,11 +98,17 @@ The synthetic images in this repository were generated using the [PCam dataset](
     
 ## Citations
 <pre>
- @misc{benitodelvalle2024unleashingpotentialsyntheticimages,
-      title={Unleashing the Potential of Synthetic Images: A Study on Histopathology Image Classification}, 
-      author={Leire Benito-Del-Valle and Aitor Alvarez-Gila and Itziar Eguskiza and Cristina L. Saratxaga},
-      journal={arXiv:2409.16002},
-      year={2024}
+ @inproceedings{benito-del-valle_unleashing_2025,
+	location = {Cham},
+	title = {Unleashing the Potential of Synthetic Images: A Study on Histopathology Image Classification},
+	isbn = {978-3-031-91721-9},
+	abstract = {Histopathology image classification is crucial for the accurate identification and diagnosis of various diseases but requires large and diverse datasets. Obtaining such datasets, however, is often costly and time-consuming due to the need for expert annotations and ethical constraints. To address this, we examine the suitability of different generative models and image selection approaches to create realistic synthetic histopathology image patches conditioned on class labels. Our findings highlight the importance of selecting an appropriate generative model type and architecture to enhance performance. Our experiments over the {PCam} dataset show that diffusion models are effective for transfer learning, while {GAN}-generated samples are better suited for augmentation. Additionally, transformer-based generative models do not require image filtering, in contrast to those derived from Convolutional Neural Networks ({CNNs}), which benefit from realism score-based selection. Therefore, we show that synthetic images can effectively augment existing datasets, ultimately improving the performance of the downstream histopathology image classification task.},
+	pages = {139--155},
+	booktitle = {Computer Vision – {ECCV} 2024 Workshops},
+	publisher = {Springer Nature Switzerland},
+	author = {Benito-Del-Valle, Leire and Alvarez-Gila, Aitor and Eguskiza, Itziar and Saratxaga, Cristina L.},
+	editor = {Del Bue, Alessio and Canton, Cristian and Pont-Tuset, Jordi and Tommasi, Tatiana},
+	date = {2025},
 }
 </pre>
 
